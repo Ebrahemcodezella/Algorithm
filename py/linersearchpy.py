@@ -5,7 +5,7 @@ def linersearch(arr,key):
         if key == arr[i]:
             print(f"fonud: {key} in index: {i}")
             flage=False
-            continue
+            break
     if flage:
         print("element not found")
     

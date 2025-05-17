@@ -12,7 +12,7 @@ void linerSearch(int arr[],int size,int key){
         {
             cout<<"found: "<<key<<" Element in index: "<<i<<"\n";
             flage=false;
-            continue;
+            break;
         }
     }
     if(flage){
@@ -29,3 +29,15 @@ int main(){
     int size = sizeof(input)/sizeof(input[0]);
     linerSearch(input,size,9);
 }
+
+
+// #include<iostream>
+// using namespace std;
+// int num(){
+//     cout<<"iam a number"<<endl;
+//     return 12;
+// }
+// int main(){
+//     num();
+//    cout<< num()<<endl;
+// }
